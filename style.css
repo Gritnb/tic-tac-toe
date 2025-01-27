@@ -1,0 +1,27 @@
+/*CSS Resets*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+    font-style: italic;
+}
+
+input {
+    font: inherit;
+}
+/*Declarations*/
+:root {
+    font-size: 62.5%;
+}
